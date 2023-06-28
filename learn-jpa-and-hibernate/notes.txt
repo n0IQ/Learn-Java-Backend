@@ -1,0 +1,10 @@
+SELECT * FROM COURSE;
+
+SELECT * FROM COURSE
+WHERE ID = ?;
+
+INSERT INTO 
+Course (id, name, author) 
+VALUES (1, 'Java Springboot', 'udemy');
+
+SELECT * FROM COURSE WHERE id = 1;
